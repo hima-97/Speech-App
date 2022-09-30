@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.speechapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_textToSpeech"
+        android:name="com.speechapp.ui.textToSpeech.TextToSpeechFragment"
+        android:label="@string/menu_textToSpeech"
+        tools:layout="@layout/fragment_text_to_speech" />
+
+    <fragment
+        android:id="@+id/nav_speechToText"
+        android:name="com.speechapp.ui.speechToText.SpeechToTextFragment"
+        android:label="@string/menu_speechToText"
+        tools:layout="@layout/fragment_speech_to_text" />
+</navigation>
