@@ -11,6 +11,7 @@ The application can run on most android devices that have API level 23 or above 
 - Google speech services
 - Fragment
 - View models
+- Data binding
 - Layouts
 
 # Testing and Running the Application
